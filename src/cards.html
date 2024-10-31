@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <title></title>
+</head>
+
+<body onload="">
+    <div class="block">
+        <div id="ytplayer" class="hide"></div>
+        <video
+          class="video hide"
+          preload="auto"
+          onEnded="handleVideoEnd"
+          onError="handleVideoError"
+          onPlay="handleVideoPlay"
+          controls
+          autoPlay
+        ></video>
+        <div class="start">
+            <!--
+            <img src="./imgs/logo.png" alt="" class="start-img">
+            -->
+            <div class="start-title">Стерилизация простых хирургических инструментов</div>
+            <div class="start-button">Начать</div>
+        </div>
+        <div class="end hide">
+            <div class="end-button">
+                Пройти ещё раз
+            </div>
+        </div>
+        <div class="retry hide">
+            <div class="retry-button">
+                Попробовать другой вариант
+            </div>
+        </div>
+        <div class="answer hide">
+            <div class="answer-txt">
+                На этапе разгрузки одна критическая ошибка. Медсестра не сделала азопирамовую пробу. Давайте разберем, как ее провести и как действовать в зависимости от результатов.<br/><br/>
+                <span class="tip">
+                    Подсказка. Уверен, самые внимательные заметили еще одну ошибку. Медсестра упаковала инструмент в разведенном виде. Но это уже относится к следующему этапу работы.
+                </span>
+            </div>
+            <div class="answer-btn">Дальше</div>
+        </div>
+
+        <div class="none hide"></div>
+        <div class="white hide">
+            <div class="cont">
+                <div class="question">
+                    <p class="que">Почему произошла такая ситуация? Причин, конечно, может быть много, но одну из них мы рассматривали на прошлом уроке.</p>
+                </div>
+                <!-- <p class="comm"></p> -->
+                <div class="horisontal-2">
+                    <div class="btn">Пациент безразлично относится к происходящему</div>
+                    <div class="btn">Медсестра не постучалась</div>
+                    <div class="btn">Медсестра не постучалась</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="texts.js"></script>
+</body>
+
+</html>
