@@ -1,20 +1,21 @@
 {
   "name": "action-simple-video-player-2410",
-  "version": "0.0.0",
-  "timetag": "241031-0000",
-  "timestamp": "2024.10.31 00:00 +0000",
+  "version": "0.0.1",
+  "timetag": "241031-1807",
+  "timestamp": "2024.10.31 18:07 +0300",
   "changed": "2024.10.31, 00:00",
   "description": "The universal simple video player support for both youtube and local sources",
   "main": "index.html",
   "author": "lilliputten@gmail.com",
   "license": "MIT",
-  "homepage": "https://vanilla-tasks.lilliputten.com/",
+  "homepage": "https://github.com/lilliputten/action-simple-video-player-2410",
+  "packageManager": "pnpm@9.12.2+sha512.22721b3a11f81661ae1ec68ce1a7b879425a1ca5b991c975b074ac220b187ce56c708fe5db69f4c962c989452eee76c82877f4ee80f474cebd61ee13461b6228",
   "repository": {
     "type": "git",
-    "url": "git@github.com:lilliputten/vanilla-tasks.git"
+    "url": "git@github.com:lilliputten/action-simple-video-player-2410.git"
   },
   "bugs": {
-    "url": "git@github.com:lilliputten/vanilla-tasks.git/issues"
+    "url": "git@github.com:lilliputten/action-simple-video-player-2410.git/issues"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.22.9",
@@ -52,6 +53,5 @@
     "start": "echo --Run dev server-- && serve .",
     "clear-cache": "echo --Clear caches-- && rimraf node_modules/.cache && echo Cleared webpack cache",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "packageManager": "pnpm@9.12.2+sha512.22721b3a11f81661ae1ec68ce1a7b879425a1ca5b991c975b074ac220b187ce56c708fe5db69f4c962c989452eee76c82877f4ee80f474cebd61ee13461b6228"
+  }
 }
